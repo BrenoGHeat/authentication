@@ -3,7 +3,9 @@ import { Header } from "../../components/Header";
 import { useUserContext } from "../../providers/UserContext";
 
 export const LoginPage = () => {
+
    const { userLogin } = useUserContext();
+ 
 
    const { register, handleSubmit } = useForm();
 

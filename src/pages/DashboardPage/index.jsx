@@ -1,8 +1,9 @@
 import { useUserContext } from "../../providers/UserContext"
 
 export const DashboardPage = () => {
-    const { user, userLogout } = useUserContext();
-
+    
+    const { user , userLogout } = useUserContext();
+ 
     return(
         <main>
             <button onClick={() => userLogout()}>Sair</button>
